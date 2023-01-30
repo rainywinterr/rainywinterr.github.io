@@ -2,14 +2,12 @@ let canvas=document.querySelector("#anime");
 
 canvas.width  = window.innerWidth;
 canvas.height = window.innerHeight;
-console.log(dimensions.width);
-console.log(dimensions.height);
 cx=canvas.getContext('2d');
 cx.strokeStyle="white";
 var drops=[];
 var drop;
 for (var i=0;i<30;i++){
-	drop=new Drops(Math.random()*dimensions.width,Math.random()*dimensions.height,Math.random()*70);
+	drop=new Drops(Math.random()*window.innerWidth,Math.random()*window.innerWidth,Math.random()*70);
 	drops.push(drop);
 }
 $('document').ready(function(){
