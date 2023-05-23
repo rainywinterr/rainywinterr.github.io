@@ -1,0 +1,149 @@
+span{
+	animation:blinker 1s linear infinite;
+}
+@keyframes blinker{
+	50%{
+		opacity:0;
+	}
+}
+::selection{
+	color:black;
+	background:white;
+}
+body{
+	/* background-color:#090909; */
+	background-image: linear-gradient(to right, #011e26,black);
+}
+*{
+	user-select:none;
+	margin:0;
+}
+#anime{
+	margin:0;
+	padding:0;
+}
+#alhdth{
+	color:grey;
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+.FirstPart{
+	position:absolute;
+	background-color:rgba(0,0,0,0.8);
+	/* border:1px solid white; */
+	width:90%;	
+	height:90%;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	/* margin:20px; */ 
+
+}
+.FirstPart *{
+	color:white;
+}
+
+.AboutWebSite{
+	position:absolute;
+	/* border:2px solid white; */	
+	width:400px;
+	top:20px;
+	left:10px;
+
+
+}
+button{
+	font-weight:bold;
+	font-family:monospace;
+	height:30px;
+	text-align:center;
+	border-radius:5px;
+	border:0;
+	color:black !important;
+	background-color:white;
+    text-decoration: none;
+    display: inline-block;
+	padding:5px;
+	margin:5px;
+	user-select:none;
+	width:100px;
+
+}
+.AboutWebSite p{
+	padding:10px;
+	font-size:15px;
+	font-family:monospace;
+	font-weight:600;
+}
+.Title{
+	width:400px;
+	height:150px;
+	/* border:1px solid white; */
+	position:absolute;
+	top:40%;
+	right:30%;
+
+}
+#computer{
+	font-size:30px;
+	/* font-family:monospace; */
+	font-family:Arial, sans-serif ;
+	/* font-family:monospace; */
+	font-weight:200;
+	position:relative;
+	top:-60;
+	left:10px;
+	height:100;
+	width:600;
+
+}
+
+#science{
+	font-family:Arial, sans-serif ;
+	position:relative;
+	top:-50px;
+	text-align:center;
+	left:100px;
+	width:500px;
+	font-size:25px;
+	/* font-family:monospace; */
+	font-weight:250;
+}
+#alhdth {
+	color:grey;
+	position:absolute;
+	font-size:15px;
+	right:-60;
+	top:20;
+}
+#thedate {
+	color:grey;
+	position:absolute;
+	font-size:15px;
+	left:-60;
+	top:-55;
+}
+#TopicOne{
+	position:absolute;
+	background-color:black;
+	/* border:1px solid white; */
+	width:90%;	
+	height:90%;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+
+
+}
+
+#tiitle{
+	font-weight:bold;
+}
+hr{
+	margin-top:10px;
+	width:300px;
+	height:10px;
+	background-color:white;
+}

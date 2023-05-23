@@ -1,25 +1,35 @@
-<!DOCTYPE html>
-
-<html>
+<!DOCTYPE html5>
+<html lang='ar'>
 	<head>
-	<title>RainDrops</title>
-	
-	<style>
-		*{
-			margin:0;
-		}
-		body{
-			background-color:black;
-		}
-		#anime{
-			height:100%;
-			width:100%;
-		}
-	</style>
+	<title>Hope</title>
+	<link href="style.css" rel="stylesheet"/>
+
 	</head>
+	
 	<body>
-		<script src="jquery-3.6.2.js"></script>
 		<canvas id="anime"></canvas>
-		<script src="testwave.js" > </script>
+		<header class="FirstPart">
+			<p id="tiitle">تواريخ الوحدة الأولى</p>
+			<div class="Title">
+				<p id="thedate">التاريخ</p>
+				<div id="computer">
+				<p id="DateOfThing">1947/3/23</p>
+				<button type="button" onclick="Generate()" onmouseover="WriteDis(this)" onmouseout="RemoveDis(this)" >Click Me!</button>
+				<hr id="theLine">
+				</div>
+				<p id="alhdth">الحدث</p>
+				<div id="Science">
+				<p id="TheThing">؟</p>
+				<button id="button2" type="button" onclick="ShowHidden()" onmouseover="WriteDis(this)" onmouseout="RemoveDis(this)">Show</button>
+				</div>
+
+			</div>
+			</header>
+
+
+	<script src="jquery-3.6.2.js"></script>
+	<script src="RainDropsAnimation.js"></script>	
+	<script src="thing.js"></script>
 	</body>
+
 </html>
